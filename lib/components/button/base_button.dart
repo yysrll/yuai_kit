@@ -59,7 +59,7 @@ class BaseButton extends StatelessWidget {
           boxShadow: boxShadow,
         ),
         child: Row(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             if (icon != null && !loading) ...[
               Icon(
