@@ -1,5 +1,6 @@
 import 'package:example/helpers/models/menu_example.dart';
 import 'package:example/pages/button_page.dart';
+import 'package:example/pages/snackbar_page.dart';
 import 'package:example/pages/text_field_page.dart';
 import 'package:flutter/material.dart';
 
@@ -52,5 +53,9 @@ const menus = [
   MenuExample(
     title: 'TextField',
     child: TextFieldPage(),
+  ),
+  MenuExample(
+    title: 'SnackBar',
+    child: SnackBarPage(),
   ),
 ];
