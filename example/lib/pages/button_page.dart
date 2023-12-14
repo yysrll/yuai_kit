@@ -1,3 +1,4 @@
+import 'package:example/helpers/models/menu_example.dart';
 import 'package:flutter/material.dart';
 import 'package:yuai_kit/yuai_kit.dart';
 
@@ -44,15 +45,8 @@ class ButtonPage extends StatelessWidget {
   }
 }
 
-class ButtonExample {
-  final String title;
-  final Widget child;
-
-  const ButtonExample({required this.title, required this.child});
-}
-
 final buttons = [
-  ButtonExample(
+  MenuExample(
     title: 'YuaiButton',
     child: SizedBox(
       height: 48,
@@ -98,7 +92,7 @@ final buttons = [
       ),
     ),
   ),
-  ButtonExample(
+  MenuExample(
     title: 'YuaiButton.icon YuaiButton.withIcon',
     child: SizedBox(
       height: 48,
@@ -145,7 +139,7 @@ final buttons = [
       ),
     ),
   ),
-  ButtonExample(
+  MenuExample(
     title: 'YuaiSecondaryButton',
     child: SizedBox(
       height: 48,
@@ -191,7 +185,7 @@ final buttons = [
       ),
     ),
   ),
-  ButtonExample(
+  MenuExample(
     title: 'YuaiSecondaryButton.icon YuaiSecondaryButton.withIcon',
     child: SizedBox(
       height: 48,
@@ -238,7 +232,7 @@ final buttons = [
       ),
     ),
   ),
-  ButtonExample(
+  MenuExample(
     title: 'YuaiOutlinedButton',
     child: SizedBox(
       height: 48,
@@ -284,7 +278,7 @@ final buttons = [
       ),
     ),
   ),
-  ButtonExample(
+  MenuExample(
     title: 'YuaiOutlinedButton.icon YuaiOutlinedButton.withIcon',
     child: SizedBox(
       height: 48,
