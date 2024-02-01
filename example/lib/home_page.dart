@@ -1,8 +1,10 @@
 import 'package:example/helpers/models/menu_example.dart';
-import 'package:example/pages/button_page.dart';
-import 'package:example/pages/snackbar_page.dart';
-import 'package:example/pages/text_field_page.dart';
+import 'package:example/pages/components/tab_page.dart';
 import 'package:flutter/material.dart';
+
+import 'pages/components/button_page.dart';
+import 'pages/components/snackbar_page.dart';
+import 'pages/components/text_field_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -57,5 +59,9 @@ const menus = [
   MenuExample(
     title: 'SnackBar',
     child: SnackBarPage(),
+  ),
+  MenuExample(
+    title: 'Tab',
+    child: TabPage(),
   ),
 ];
